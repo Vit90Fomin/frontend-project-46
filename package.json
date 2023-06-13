@@ -1,0 +1,27 @@
+{
+  "name": "@hexlet/code",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This project is a utility that determines the difference between two data structures",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "commander": "^10.0.0",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-base": "^1.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jest": "^29.5.0"
+  }
+}
