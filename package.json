@@ -17,7 +17,6 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "commander": "^10.0.0",
     "eslint": "^8.36.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-base": "^1.0.0",
