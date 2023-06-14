@@ -7,7 +7,7 @@ publish:
 gendiff:
 	node bin/gendiff.js
 
-make lint:
+lint:
 	npx eslint .
 
 test:
