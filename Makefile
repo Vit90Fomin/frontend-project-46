@@ -1,8 +1,14 @@
-gendiff:
-	node bin/gendiff.js
+install:
+	npm ci
 
 publish:
 	npm publish --dry-run
 
-lint:
+gendiff:
+	node bin/gendiff.js
+
+make lint:
 	npx eslint .
+
+test:
+	NODE_OPTIONS=--experimental-vm-modules npx jest
