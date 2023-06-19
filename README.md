@@ -6,7 +6,7 @@
 
 <br/>   
 Video with work process "gendiff with json".
-<a href="https://asciinema.org/a/592260" target="_blank"><img src="https://asciinema.org/a/592260.svg" /></a>
+<a href="https://asciinema.org/a/Om3LpEDKZcO0Mkmam3B9F6u8c" target="_blank"><img src="https://asciinema.org/a/Om3LpEDKZcO0Mkmam3B9F6u8c.svg" /></a>
 
 <br/>   
 Video with work process "gendiff with yml".
