@@ -1,8 +1,9 @@
 import _ from 'lodash';
 
 import { readFileSync } from 'fs';
-import { resolve } from 'path';
+import path, { resolve } from 'path';
 import { cwd } from 'process';
+import getParser from './parsers.js';
 
 const getDiffTree = (data1, data2) => {
   const keys1 = _.keys(data1);
@@ -35,15 +36,15 @@ const getDiffTree = (data1, data2) => {
 };
 
 const getFileContent = (filePath) => readFileSync(resolve(cwd(), filePath), 'utf-8');
-
-const getJsonStyle = (fileContent) => JSON.parse(fileContent);
+const getType = (filepath) => path.extname(filepath).slice(1);
 
 const genDiff = (filePath1, filePath2) => {
-  const firstObject = getJsonStyle(getFileContent(filePath1));
+  const firstObject = getParser(getFileContent(filePath1), getType(filePath1));
+  const secondObject = getParser(getFileContent(filePath2), getType(filePath2));
+
   // console.log(getFileContent(filePath1));
-  // console.log(getJsonStyle(getFileContent(filePath1)));
+  // console.log(getParser(getFileContent(filePath1)));
   // console.log(firstObject);
-  const secondObject = getJsonStyle(getFileContent(filePath2));
   // console.log(secondObject);
   return getDiffTree(firstObject, secondObject);
 };
