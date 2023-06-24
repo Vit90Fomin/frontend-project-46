@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url';
 import path, { dirname } from 'path';
 import { readFileSync } from 'fs';
 
-import genDiff from '../src/getDiff.js';
+import genDiff from '../src/index.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -15,10 +15,10 @@ const resultExpected = (filename) => readFileSync(getFixturePath(filename), 'utf
 
 test('genDiffJsonFile', () => {
   const jsonDiff = genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'));
-  expect(jsonDiff).toEqual(resultExpected('jsonTest.txt'));
+  expect(jsonDiff).toEqual(resultExpected('stylishTestJson.txt'));
 });
 
 test('genDiffYamlFile', () => {
   const yamlDiff = genDiff(getFixturePath('file1.yml'), getFixturePath('file2.yml'));
-  expect(yamlDiff).toEqual(resultExpected('jsonTest.txt'));
+  expect(yamlDiff).toEqual(resultExpected('stylishTestJson.txt'));
 });
