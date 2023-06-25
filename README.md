@@ -11,3 +11,7 @@ Video with work process "gendiff with json".
 <br/>   
 Video with work process "gendiff with yml".
 <a href="https://asciinema.org/a/CNRC8k1kC0Dcj7TKETkfYfTWv" target="_blank"><img src="https://asciinema.org/a/CNRC8k1kC0Dcj7TKETkfYfTWv.svg" /></a>
+
+<br/>   
+Video with work process "gendiff with nested structure".
+<a href="https://asciinema.org/a/eW1KOr41niVqtWl9iIbsHoSDi" target="_blank"><img src="https://asciinema.org/a/eW1KOr41niVqtWl9iIbsHoSDi.svg" /></a>
