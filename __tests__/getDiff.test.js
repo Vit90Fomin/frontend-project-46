@@ -13,12 +13,34 @@ const getFixturePath = (filename) => path.join(__dirname, '..', '__fixtures__', 
 // const jsonDiff = genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'));
 const resultExpected = (filename) => readFileSync(getFixturePath(filename), 'utf-8');
 
-test('genDiffJsonFile', () => {
-  const jsonDiff = genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'));
-  expect(jsonDiff).toEqual(resultExpected('stylishTestJson.txt'));
-});
-
-test('genDiffYamlFile', () => {
-  const yamlDiff = genDiff(getFixturePath('file1.yml'), getFixturePath('file2.yml'));
-  expect(yamlDiff).toEqual(resultExpected('stylishTestJson.txt'));
+test.each([
+  {
+    file1: 'file1.json', file2: 'file2.json', format: undefined, expected: 'stylishTest.txt',
+  },
+  {
+    file1: 'file1.yml', file2: 'file2.yml', format: undefined, expected: 'stylishTest.txt',
+  },
+  {
+    file1: 'file1.json', file2: 'file2.json', format: 'stylish', expected: 'stylishTest.txt',
+  },
+  {
+    file1: 'file1.yml', file2: 'file2.yml', format: 'stylish', expected: 'stylishTest.txt',
+  },
+  {
+    file1: 'file1.json', file2: 'file2.json', format: 'plain', expected: 'plainTest.txt',
+  },
+  {
+    file1: 'file1.yml', file2: 'file2.yml', format: 'plain', expected: 'plainTest.txt',
+  },
+  {
+    file1: 'file1.json', file2: 'file2.json', format: 'json', expected: 'jsonTest.txt',
+  },
+  {
+    file1: 'file1.yml', file2: 'file2.yml', format: 'json', expected: 'jsonTest.txt',
+  },
+])('displaying file in differences form', ({
+  file1, file2, format, expected,
+}) => {
+  expect(genDiff(getFixturePath(file1), getFixturePath(file2), format))
+    .toEqual(resultExpected(expected));
 });
