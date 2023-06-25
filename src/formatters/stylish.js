@@ -4,7 +4,6 @@ const getCurrentIndent = (depth, replacer = ' ', spacesCount = 4) => replacer.re
 const getClosingIndent = (depth, replacer = ' ', spacesCount = 4) => replacer.repeat(spacesCount * depth - spacesCount);
 
 const stringify = (obj, depth = 1) => {
-  // console.log('DATA IS:', data)
   const iter = (currentValue, depthIter) => {
     const iterIndent = getCurrentIndent(depthIter);
     const closingIndent = getClosingIndent(depthIter);

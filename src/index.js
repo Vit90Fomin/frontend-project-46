@@ -12,12 +12,7 @@ const genDiff = (filePath1, filePath2, format = 'stylish') => {
   const firstObject = getParser(getFileContent(filePath1), getType(filePath1));
   const secondObject = getParser(getFileContent(filePath2), getType(filePath2));
 
-  // console.log(getFileContent(filePath1));
-  // console.log(getParser(getFileContent(filePath1)));
-  // console.log(firstObject);
-  // console.log(secondObject);
   return getFormat(getDiffTree(firstObject, secondObject), format);
 };
 
-// export default getDiffTree;
 export default genDiff;
