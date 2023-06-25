@@ -17,7 +17,8 @@ Video with work process "gendiff with nested structure".
 <a href="https://asciinema.org/a/eW1KOr41niVqtWl9iIbsHoSDi" target="_blank"><img src="https://asciinema.org/a/eW1KOr41niVqtWl9iIbsHoSDi.svg" /></a>
 
 <br/>   
-Video 
+Video with work process "gendiff json format".
+<a href="https://asciinema.org/a/ILrzMwY6IEXspSKG78Szs2Eiy" target="_blank"><img src="https://asciinema.org/a/ILrzMwY6IEXspSKG78Szs2Eiy.svg" /></a>
 
 <br/>   
 Video with work process "gendiff plain format".

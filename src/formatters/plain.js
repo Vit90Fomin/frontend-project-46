@@ -14,10 +14,10 @@ const getPlainFormat = (tree) => {
   const iter = (tree2, path = '') => {
     const filterTree = tree2.filter((item) => item.type !== 'unchanged');
     const mapTree = filterTree.map((child) => {
-      const pathTree = (path === '') ? `${child.key}` : `${path}.${child.key}`;
+      const pathTree = `${path}${child.key}`;
       switch (child.type) {
         case 'nested':
-          return iter(child.children, pathTree);
+          return iter(child.children, `${pathTree}.`);
         case 'added':
           return `Property '${pathTree}' was added with value: ${getType(child.value)}`;
         case 'changed':
