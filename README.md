@@ -15,3 +15,10 @@ Video with work process "gendiff with yml".
 <br/>   
 Video with work process "gendiff with nested structure".
 <a href="https://asciinema.org/a/eW1KOr41niVqtWl9iIbsHoSDi" target="_blank"><img src="https://asciinema.org/a/eW1KOr41niVqtWl9iIbsHoSDi.svg" /></a>
+
+<br/>   
+Video 
+
+<br/>   
+Video with work process "gendiff plain format".
+<a href="https://asciinema.org/a/JrtE0b9CJnWMm44edkUWUaED1" target="_blank"><img src="https://asciinema.org/a/JrtE0b9CJnWMm44edkUWUaED1.svg" /></a>
