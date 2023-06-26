@@ -14,18 +14,25 @@ The program can work both from the command line and be installed as a library in
 
 Utility can work with json and yaml/yml files.
 
-Installation and launch instructions:
+**Installation and launch instructions:**
 
-1. **Install**
+1. Install
 ```
-  npm install
+  make install
 ```
-2. **Run app with command:**
+2. Run app with command:
 ```
   gendiff [format name] <path to file1> <path to file2>
 ```
 Paths can be either absolute or relative.
 
+Formats are specified with the -f flags. Supported format names:
+
+* stylish - used by default
+
+* plain - for line-by-line output of the difference
+
+* json - for json difference output
 
 
 <br/>   
