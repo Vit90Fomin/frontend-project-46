@@ -5,9 +5,9 @@
 <a href="https://codeclimate.com/github/Vit90Fomin/frontend-project-46/test_coverage"><img src="https://api.codeclimate.com/v1/badges/33a5babb9dd7fafd0226/test_coverage" /></a>
 
 # **Hello, Dear Users**
-![Difference Calculator](https://sun9-34.userapi.com/impg/95HdKBasuB9turC7qNQuVqIPNBPTOfj-EHj7-w/MNDbjAxH744.jpg?size=604x401&quality=96&sign=d970770777c6bba6813a354416e9c31c&c_uniq_tag=ZcnO0NgtVcvhy011hojV_S_j5V1YlwakPQNHrBVeo8A&type=album)
 
 ## **Project Description**
+![Difference Calculator](https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/16434075/image/56326cb3deb96133fd67522d28bd55c3)
 
 Gendiff - is a utility that determines the difference between two data structures.
 
