@@ -6,9 +6,19 @@
 
 ## **Hello, Dear Users**
 
-### **About the project**
+### **Project Description**
 
-### **Description###**
+Gendiff - is a utility that determines the difference between two data structures.
+
+The program can work both from the command line and be installed as a library in a third-party project.
+
+Utility can work with json and yaml/yml files. 
+
+The description of the utility is displayed by the command:
+
+Installation and launch instructions:
+
+#### **Install**
 
 
 
