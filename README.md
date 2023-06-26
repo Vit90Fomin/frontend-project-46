@@ -5,6 +5,7 @@
 <a href="https://codeclimate.com/github/Vit90Fomin/frontend-project-46/test_coverage"><img src="https://api.codeclimate.com/v1/badges/33a5babb9dd7fafd0226/test_coverage" /></a>
 
 # **Hello, Dear Users**
+![Difference Calculator](\\wsl.localhost\Ubuntu\home\vital2190\frontend-project-46\img)
 
 ## **Project Description**
 
