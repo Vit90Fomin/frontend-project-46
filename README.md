@@ -5,7 +5,7 @@
 <a href="https://codeclimate.com/github/Vit90Fomin/frontend-project-46/test_coverage"><img src="https://api.codeclimate.com/v1/badges/33a5babb9dd7fafd0226/test_coverage" /></a>
 
 # **Hello, Dear Users**
-![Difference Calculator](\\wsl.localhost\Ubuntu\home\vital2190\frontend-project-46\img)
+![Difference Calculator](https://sun9-34.userapi.com/impg/95HdKBasuB9turC7qNQuVqIPNBPTOfj-EHj7-w/MNDbjAxH744.jpg?size=604x401&quality=96&sign=d970770777c6bba6813a354416e9c31c&c_uniq_tag=ZcnO0NgtVcvhy011hojV_S_j5V1YlwakPQNHrBVeo8A&type=album)
 
 ## **Project Description**
 
@@ -29,7 +29,7 @@ Utility can work with json and yaml/yml files.
  ```
   gendiff [format name] <path to file1> <path to file2>
  ```
-  Paths can be either absolute or relative.\
+  Paths can be either absolute or relative.
 
 Formats are specified with the -f flags. Supported format names:
 
