@@ -17,13 +17,17 @@ Utility can work with json and yaml/yml files.
 **Installation and launch instructions:**
 
 1. Install
-```
+ ```
   make install
-```
-2. Run app with command:
-```
+ ```
+2. The description of the utility is displayed by the command:
+ ```
+  gendiff -h
+ ```
+3. Run app with command:
+ ```
   gendiff [format name] <path to file1> <path to file2>
-```
+ ```
 Paths can be either absolute or relative.
 
 Formats are specified with the -f flags. Supported format names:
