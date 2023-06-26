@@ -28,8 +28,9 @@ Utility can work with json and yaml/yml files.
  ```
   gendiff [format name] <path to file1> <path to file2>
  ```
-  Paths can be either absolute or relative.<br />
-
+<pre>
+  Paths can be either absolute or relative.
+</pre>
 Formats are specified with the -f flags. Supported format names:
 
 * stylish - used by default
