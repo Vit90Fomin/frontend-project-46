@@ -4,9 +4,9 @@
 <a href="https://codeclimate.com/github/Vit90Fomin/frontend-project-46/maintainability"><img src="https://api.codeclimate.com/v1/badges/33a5babb9dd7fafd0226/maintainability" /></a>
 <a href="https://codeclimate.com/github/Vit90Fomin/frontend-project-46/test_coverage"><img src="https://api.codeclimate.com/v1/badges/33a5babb9dd7fafd0226/test_coverage" /></a>
 
-## **Hello, Dear Users**
+# **Hello, Dear Users**
 
-### **Project Description**
+## **Project Description**
 
 Gendiff - is a utility that determines the difference between two data structures.
 
@@ -18,7 +18,7 @@ The description of the utility is displayed by the command:
 
 Installation and launch instructions:
 
-#### **Install**
+### **Install**
 
 
 
