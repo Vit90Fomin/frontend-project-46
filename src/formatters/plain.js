@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 const getType = (value) => {
-  if (_.isObject(value)) {
+  if (_.isPlainObject(value)) {
     return '[complex value]';
   }
   if (typeof value === 'string') {
