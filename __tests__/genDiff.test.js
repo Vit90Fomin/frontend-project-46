@@ -18,7 +18,7 @@ describe.each([['stylish'], ['plain'], ['json']])('%s formatter', (formatter) =>
     const filepath2 = getFixturePath(`file2.${extension}`);
 
     const result = genDiff(filepath1, filepath2, formatter);
-    
+
     expect(result).toEqual(expected);
   });
 });
